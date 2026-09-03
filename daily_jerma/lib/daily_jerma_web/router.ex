@@ -18,6 +18,9 @@ defmodule DailyJermaWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :home
+
+    live "/links", LinksLive
+
   end
 
   # Other scopes may use custom stacks.
