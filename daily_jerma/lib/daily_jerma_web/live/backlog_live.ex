@@ -1,12 +1,12 @@
-defmodule DailyJermaWeb.LinksLive do
-    use DailyJermaWeb, :live_view
+defmodule DailyJermaWeb.BacklogLive do
+   use DailyJermaWeb, :live_view
 
     #render
     def render(assigns) do
         ~H"""
           <Layouts.app flash={@flash}>
             <div>
-                <h1>Links will go here</h1>
+                <h1>Backlog will go here</h1>
             </div>
             </Layouts.app>
         """

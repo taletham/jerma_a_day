@@ -1,14 +1,14 @@
-defmodule DailyJermaWeb.LinksLive do
-    use DailyJermaWeb, :live_view
+defmodule DailyJermaWeb.DailyLive do
+ use DailyJermaWeb, :live_view
 
     #render
     def render(assigns) do
         ~H"""
-          <Layouts.app flash={@flash}>
+         <Layouts.app flash={@flash}>
             <div>
-                <h1>Links will go here</h1>
+                <h1>Clip will go here</h1>
             </div>
-            </Layouts.app>
+          </Layouts.app>
         """
     end
 
@@ -19,4 +19,5 @@ defmodule DailyJermaWeb.LinksLive do
     end
 
     #handle_event
+
 end
