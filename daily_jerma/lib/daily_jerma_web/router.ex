@@ -20,6 +20,13 @@ defmodule DailyJermaWeb.Router do
     get "/", PageController, :home
 
     live "/links", LinksLive
+    live "/backlog", BacklogLive
+    live "/schedule", ScheduleLive
+
+    live "/daily", DailyLive
+
+
+
 
   end
 
